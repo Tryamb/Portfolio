@@ -1,0 +1,15 @@
+.header {
+  height: 7em;
+  width: 100%;
+  box-shadow:  1px 1px 4px 0;
+  z-index: 2;
+  position: fixed;
+  padding: 0 4em;
+  justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+  .header {
+    height: 6em;
+  }
+}

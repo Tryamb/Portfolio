@@ -1,0 +1,25 @@
+.contact {
+  flex-direction: column;
+}
+.contact__handle{
+  display: flex;
+}
+.contact__handle a{
+  color: var(--clr-primary);
+  flex: 1;
+  padding: 0 1em;
+}
+
+.contact__handle a:hover{
+  transform: translateY(-5px);
+}
+
+.contact__handle label{
+  color: var(--clr-fg-alt);
+}
+
+@media (max-width: 800px) {
+  .contact__handle label,.contact__handle{
+    display: block;
+  }
+}
